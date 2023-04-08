@@ -2,6 +2,8 @@
 
 ![PAPA React JS Portfolio Starter Pack](resume-screenshot.jpg?raw=true "PAPA React JS Portfolio Stater Pack ")
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aabb7c75-fe3c-4d10-985f-85e136bce4be/deploy-status)](https://app.netlify.com/sites/splendid-cactus-48c11c/deploys)
+
 ### <a href="https://resume-portfolio-starter-pack.herokuapp.com">LIVE DEMO</a>
 
 ## Resume Starter Pack Description
