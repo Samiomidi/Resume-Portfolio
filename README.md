@@ -2,7 +2,7 @@
 
 ![Vercel](https://vercelbadge.vercel.app/api/Samiomidi/Resume-Portfolio)
 
-![Sami Resume and Digital Portfolio](resume-screenshot.png?raw=true "Sami Resume and Digital Portfolio ")
+![Sami Resume and Digital Portfolio](resume-screenshot.png?raw=true "Sami Resume and Digital Portfolio ")(https://resume-portfolio-samiomidi.vercel.app/)
 
 ### <a href="https://resume-portfolio-samiomidi.vercel.app/">LIVE DEMO</a>
 
