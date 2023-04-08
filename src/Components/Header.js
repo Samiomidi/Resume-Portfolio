@@ -1,17 +1,32 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
-
+import {
+  FaWhatsapp,
+  FaFacebook,
+  FaLinkedin,
+  FaInstagram,
+  FaGithub,
+} from "react-icons/fa";
+const icons = {
+  facebookIcon: <FaFacebook />,
+  linkedinIcon: <FaLinkedin />,
+  whatsAppIcon: <FaWhatsapp />,
+  instagramIcon: <FaInstagram />,
+  githubIcon: <FaGithub />,
+};
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
     var description = data.description;
     var city = data.address.city;
+
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
+          <a href={network.url} style={network.style}>
+            {icons[network.icon]}
+            {/* <i className={network.className}></i> */}
           </a>
         </li>
       );

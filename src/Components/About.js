@@ -2,16 +2,16 @@ import React from "react";
 
 const About = ({ data }) => {
   if (data) {
-    var name = data.name;
-    var profilepic = "images/" + data.image;
-    var bio = data.bio;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var email = data.email;
-    var resumeDownload = data.resumedownload;
+    const name = data.name;
+    const profilepic = "images/" + data.image;
+    const bio = data.bio;
+    const street = data.address.street;
+    const city = data.address.city;
+    const country = data.address.country;
+    const zip = data.address.zip;
+    const phone = data.phone;
+    const email = data.email;
+    const resumeDownload = data.resumedownload;
   }
 
   return (
@@ -37,12 +37,12 @@ const About = ({ data }) => {
                 <span>
                   {street}
                   <br />
-                  {city} {state}, {zip}
+                  {city} {country}, {zip}
                 </span>
                 <br />
-                <span>{phone}</span>
+                <a href={`tel:${phone}`}>{phone}</a>
                 <br />
-                <span>{email}</span>
+                <a href={`mailto:${email}`}>{email}</a>
               </p>
             </div>
             <div className="columns download">
