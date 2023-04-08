@@ -1,10 +1,10 @@
 # Sami Resume and Digital Portfolio
 
-![PAPA React JS Portfolio Starter Pack](resume-screenshot.png?raw=true "PAPA React JS Portfolio Stater Pack ")
-
 ![Vercel](https://vercelbadge.vercel.app/api/Samiomidi/Resume-Portfolio)
 
-### <a href="https://resume-portfolio-starter-pack.herokuapp.com">LIVE DEMO</a>
+![Sami Resume and Digital Portfolio](resume-screenshot.png?raw=true "Sami Resume and Digital Portfolio ")
+
+### <a href="https://resume-portfolio-samiomidi.vercel.app/">LIVE DEMO</a>
 
 ## Resume Starter Pack Description
 
@@ -18,7 +18,7 @@ Firstly, you will need to download the latest version of Node by <a href="https:
 
 Next, you will need to run the following command in the Terminal to clone the repo onto your machine.
 
-`git clone https://github.com/sonnysangha/Resume-Portfolio-Starter-pack.git`
+`git clone https://github.com/Samiomidi/Resume-Portfolio.git`
 
 ## 3. Install Dependancies
 
@@ -44,10 +44,10 @@ Once all the formatting and data input is finalised, run `npm run build`. This w
 
 ## 8. Host Resume Online
 
-1. Open the build folder in the finder screen
-2. Go to <a href="https://www.netlify.com/">Netlify</a> and set up a profile
-3. Go to the 'Sites Tab'
-4. Simply Drag and drop the 'Build' Folder into the designated upload space
+1. Clone project to your github account.
+2. Go to <a href="https://vercel.com/">Vercel</a> and set up a profile
+3. Go to the 'Dashboard'
+4. Simply Click on add new project and choose your repository.
 5. The app will begin deploying & the deployment URL will be presented!
 
 🚀 BOOM, you are now LIVE!!!
