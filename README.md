@@ -1,6 +1,6 @@
 # Sami Resume and Digital Portfolio
 
-![PAPA React JS Portfolio Starter Pack](resume-screenshot.jpg?raw=true "PAPA React JS Portfolio Stater Pack ")
+![PAPA React JS Portfolio Starter Pack](resume-screenshot.png?raw=true "PAPA React JS Portfolio Stater Pack ")
 
 ![Vercel](https://vercelbadge.vercel.app/api/Samiomidi/Resume-Portfolio)
 
