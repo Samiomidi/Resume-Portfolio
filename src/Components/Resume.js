@@ -1,5 +1,6 @@
 import React from "react";
-
+import Skill from "./Mini/Skill";
+import { AiOutlineLink } from "react-icons/ai";
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
@@ -18,7 +19,15 @@ const Resume = ({ data }) => {
     var work = data.work.map(function (work) {
       return (
         <div key={work.company}>
-          <h3>{work.company}</h3>
+          <span className="company-title">
+            <h3>{work.company}</h3>
+            {work.url ? (
+              <a href={work.url}>
+                <AiOutlineLink style={{ width: "20px", height: "20px" }} />
+              </a>
+            ) : undefined}
+          </span>
+
           <p className="info">
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
@@ -27,12 +36,15 @@ const Resume = ({ data }) => {
         </div>
       );
     });
+
     var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
       return (
         <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
+          <Skill
+            title={skills.name}
+            progress={skills.level}
+            icon={skills.icon}
+          />
         </li>
       );
     });

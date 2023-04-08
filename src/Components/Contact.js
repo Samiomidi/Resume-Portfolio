@@ -123,7 +123,7 @@ const Contact = ({ data }) => {
             <p className="address">
               {contactName}
               <br />
-              {contactEmail}
+              <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
               <br />
               <br />
               {street} <br />
