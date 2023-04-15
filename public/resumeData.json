@@ -73,28 +73,53 @@
     ],
     "skills": [
       {
+        "name": "HTML",
+        "level": "60%",
+        "icon": "html"
+      },
+      {
+        "name": "CSS 3",
+        "level": "60%",
+        "icon": "css"
+      },
+      {
+        "name": "Redux",
+        "level": "30%",
+        "icon": "redux"
+      },
+      {
+        "name": "PWA",
+        "level": "30%",
+        "icon": "pwa"
+      },
+      {
+        "name": "Wordpress",
+        "level": "30%",
+        "icon": "wordpress"
+      },
+      {
         "name": "ReactJs",
-        "level": "100%",
+        "level": "50%",
         "icon": "react"
       },
       {
         "name": "JavaScript",
-        "level": "85%",
+        "level": "50%",
         "icon": "js"
       },
       {
         "name": "Git",
-        "level": "70%",
+        "level": "30%",
         "icon": "git"
       },
       {
         "name": "NextJS",
-        "level": "99%",
+        "level": "50%",
         "icon": "next"
       },
       {
         "name": "Material UI",
-        "level": "95%",
+        "level": "40%",
         "icon": "mui"
       }
     ]
