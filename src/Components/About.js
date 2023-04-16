@@ -11,7 +11,7 @@ var About = ({ data }) => {
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
-    var resumeDownload = data.resumedownload;
+    var resumeDownload = "files/resume/" + data.resumedownload;
   }
 
   return (
