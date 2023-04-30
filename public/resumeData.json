@@ -137,6 +137,12 @@
         "category": "",
         "image": "CostManagementScreenshot.png",
         "url": "https://cost-management-two.vercel.app/"
+      },
+      {
+        "title": "Task Management App (Typescript)",
+        "category": "",
+        "image": "taski-screenshot.png",
+        "url": "https://taski-seven.vercel.app/"
       }
     ]
   },
