@@ -47,7 +47,12 @@ var About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button" target="_blank">
+                <a
+                  href={resumeDownload}
+                  className="button"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>
