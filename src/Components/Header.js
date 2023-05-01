@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaGithub,
 } from "react-icons/fa";
+import Typewriter from "typewriter-effect/dist/core";
 const icons = {
   facebookIcon: <FaFacebook />,
   linkedinIcon: <FaLinkedin />,
@@ -14,6 +15,23 @@ const icons = {
   githubIcon: <FaGithub />,
 };
 const Header = ({ data }) => {
+  var typewriter = document.getElementById("typewriter");
+
+  var typing = new Typewriter(typewriter, {
+    loop: true,
+    delay: 75,
+  });
+
+  typing
+    .pauseFor(1000)
+    .typeString("<h1>I'm Sami Omidi.</h1>")
+    .pauseFor(700)
+    .typeString("<h3>I'm a ReactJS, NextJS also Typescript Developer.</h3>")
+    .typeString(
+      '<h5>Welcome to my <span style="color: #27ae60;">personal</span> website!</h5>'
+    )
+    .pauseFor(1000)
+    .start();
   if (data) {
     var occupation = data.occupation;
     var description = data.description;
@@ -77,12 +95,8 @@ const Header = ({ data }) => {
 
       <div className="row banner">
         <div className="banner-text">
-          <a href="https://git.io/typing-svg">
-            <img
-              src="https://readme-typing-svg.herokuapp.com?font=Neucha&weight=700&size=40&duration=2000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=1000&height=100&lines=I'm+Sami+Omidi.;Welcome+to+my+personal+website.;Frontend+Developer.;ReactJS%2C+NextJS%2C+Typescript+Developer.;Freelancer"
-              alt="I'm Sami Omidi"
-            />
-          </a>
+          <span className="responsive-headline" id="typewriter"></span>
+
           <h3>
             Based in {city}. <span>{occupation}</span>. {description}.
           </h3>
